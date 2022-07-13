@@ -15,23 +15,23 @@ Tanggal: 13/07/2022
 ![Screenshot (1062)](https://user-images.githubusercontent.com/71547739/178669784-b65eea10-36a3-4b8f-937f-06f0c74e6034.png)
 
 ## Question To Ask
-* how to search for data with nrp
+* how to search for data with nrp<br>
   using "btnActionCari" with filter property
-* how to delete
+* how to delete<br>
   using "btnActionHapus" with remove property
-* how to prevent error when no data deleted
+* how to prevent error when no data deleted<br>
   using "if-else method"
-* how to show error when no data deleted
+* how to show error when no data deleted<br>
   using alert error
-* how to add confirm box to make sure deletion
+* how to add confirm box to make sure deletion<br>
   using alert confirmation
-* how to know which data selected from table select
+* how to know which data selected from table select<br>
   given fx:id on "onMouseClicked" in fxml
-* how to show selected data from table on the txtNrpDelete
+* how to show selected data from table on the txtNrpDelete<br>
   using getSelectedItem() and set item on the table
-* how to delete data selected from table select
+* how to delete data selected from table select<br>
   using getSelectedItem() and remove item on the table
-* if student has multiple score, and you would like to add delete update score on student what file need to be added
+* if student has multiple score, and you would like to add delete update score on student what file need to be added<br>
   controller, class Student, and fxml file must be added with new column for score
-* if student has multiple score, and you would like to add delete update score on student what file need to be updated
+* if student has multiple score, and you would like to add delete update score on student what file need to be updated<br>
   controller, class Student, and fxml file must be update with new column for score
