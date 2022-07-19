@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stage_and_modality.controller.HomeController">
+   <children>
+      <Label layoutX="183.0" layoutY="45.0" text=" MY COFFEE SHOP APP">
+         <font>
+            <Font name="Franklin Gothic Demi" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="88.0" text="Available Menu:" />
+      <Label layoutX="14.0" layoutY="105.0" text="--------------------------------------------------">
+         <font>
+            <Font name="MS Mincho" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="242.0" layoutY="355.0" mnemonicParsing="false" onAction="#onActionAddTo" text="ADD TO MY MENU" />
+      <ListView fx:id="listView" layoutX="15.0" layoutY="123.0" prefHeight="218.0" prefWidth="575.0" />
+   </children>
+</Pane>
